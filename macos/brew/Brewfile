@@ -19,8 +19,9 @@ brew 'zsh-completions'
 
 # Applications
 cask "firefox"
+cask "flux"
 cask "google-chrome"
-cask 'iterm2-beta'
+cask 'iterm2'
 cask "minikube"
 cask 'ngrok'
 cask 'postman'
