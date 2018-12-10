@@ -2,20 +2,25 @@ cask_args appdir: "/Applications"
 
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "alecthomas/homebrew-tap"
 
 # Tools
 brew 'awscli'
 brew 'awsebcli'
 brew "docker"
 brew "docker-machine"
+brew "elasticsearch"
 brew 'exercism'
-brew "go"
 brew 'htop'
 brew 'kops'
 brew 'node'
 brew 'terraform'
 brew 'zsh'
 brew 'zsh-completions'
+
+# Go Tools
+brew "go"
+brew "gometalinter"
 
 # Applications
 cask "firefox"
