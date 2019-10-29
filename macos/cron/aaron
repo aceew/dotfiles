@@ -1,0 +1,7 @@
+MAILTO=""
+AWS_SHARED_CREDENTIALS_FILE=~/.secrets/.aws/credentials
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+SHELL=/bin/bash
+
+# RUN YO SELF
+30 9 * * * /bin/bash ~/Documents/Repositories/dotfiles/macos/run.sh

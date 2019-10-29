@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 
+tap "fullscreen/tap"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "alecthomas/homebrew-tap"
@@ -7,8 +8,7 @@ tap "alecthomas/homebrew-tap"
 # Tools
 brew 'awscli'
 brew 'awsebcli'
-brew "docker"
-brew "docker-machine"
+brew 'aws-rotate-key'
 brew "elasticsearch"
 brew 'exercism'
 brew 'htop'
@@ -23,15 +23,18 @@ brew "go"
 brew "gometalinter"
 
 # Applications
+cask "docker"
 cask "firefox"
 cask "flux"
 cask "google-chrome"
 cask 'iterm2'
 cask "minikube"
 cask 'ngrok'
+cask 'nordvpn'
 cask 'postman'
 cask 'slack-beta'
 cask 'spectacle'
+cask 'spotify'
 cask "visual-studio-code"
 cask 'virtualbox'
 cask 'vlc'
