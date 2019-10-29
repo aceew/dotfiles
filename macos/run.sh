@@ -17,6 +17,8 @@ cd ../
 echo "Linking dotfiles"
 ln -s ./.bash_profile ~/.bash_profile
 ln -s ./.zshrc ~/.zshrc
+ln -s ./.gitconfig ~/.gitconfig
+ln -s ./.vimrc ~/.vimrc
 
 echo "Installing/updating crontab"
 crontab ./cron/aaron
