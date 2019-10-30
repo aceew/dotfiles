@@ -16,6 +16,7 @@ brew 'exercism'
 brew 'htop'
 brew 'kops'
 brew 'node'
+brew "openvpn"
 brew 'terraform'
 brew 'zsh'
 brew 'zsh-completions'
