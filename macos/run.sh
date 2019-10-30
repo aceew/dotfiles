@@ -3,7 +3,12 @@
 if ! type "brew" > /dev/null; then
 	echo "Installing homebrew"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	xcode-select --install
+	sudo xcode-select --install
+fi
+
+if [ ! -d ~/.oh-my-zsh ]; then
+	echo "Installing oh-my-zsh"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
 echo "Updating homebrew"
@@ -11,14 +16,14 @@ brew update
 
 cd brew || exit 1
 echo "Installing/updating dependencies from $(pwd)/Brewfile"
-# brew bundle
+brew bundle
 cd ../
 
 echo "Linking dotfiles"
-ln -s ./.bash_profile ~/.bash_profile
-ln -s ./.zshrc ~/.zshrc
-ln -s ./.gitconfig ~/.gitconfig
-ln -s ./.vimrc ~/.vimrc
+ln -sfn "$(pwd)/.bash_profile" ~/.bash_profile
+ln -sfn "$(pwd)/.zshrc" ~/.zshrc
+ln -sfn "$(pwd)/.gitconfig" ~/.gitconfig
+ln -sfn "$(pwd)/.vimrc" ~/.vimrc
 
 echo "Installing/updating crontab"
 crontab ./cron/aaron

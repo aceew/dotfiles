@@ -3,12 +3,14 @@ cask_args appdir: "/Applications"
 tap "fullscreen/tap"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-versions"
 tap "alecthomas/homebrew-tap"
 
 # Tools
 brew 'awscli'
 brew 'awsebcli'
 brew 'aws-rotate-key'
+cask "adoptopenjdk8"
 brew "elasticsearch"
 brew 'exercism'
 brew 'htop'
@@ -27,8 +29,8 @@ cask "docker"
 cask "firefox"
 cask "flux"
 cask "google-chrome"
+cask "gpg-suite"
 cask 'iterm2'
-cask "minikube"
 cask 'ngrok'
 cask 'nordvpn'
 cask 'postman'
