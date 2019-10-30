@@ -7,7 +7,7 @@ export SHELL=/usr/local/bin/zsh
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # aws-sdk
-export AWS_SHARED_CREDENTIALS_FILE=~/secrets/.aws/credentials
+export AWS_SHARED_CREDENTIALS_FILE=~/.secrets/.aws/credentials
 
 # go
 export GOPATH=~/go
