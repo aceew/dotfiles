@@ -29,9 +29,13 @@ echo "Installing/updating crontab"
 crontab ./cron/aaron
 
 echo "Setting up AWS installation"
-cd aws || exit 1
-./setup.sh
+./aws/setup.sh
 
 echo "Rotating all AWS keys"
-./rotate-keys.sh
-cd ../
+./aws/rotate-keys.sh
+
+echo "Setting up vim"
+./vim/setup.sh
+
+echo "Setting up Mac Config"
+./mac-settings.sh
