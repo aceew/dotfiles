@@ -16,7 +16,7 @@ brew 'exercism'
 brew 'htop'
 brew 'kops'
 brew 'node'
-brew "openvpn"
+brew 'openvpn'
 brew 'terraform'
 brew 'zsh'
 brew 'zsh-completions'
@@ -30,7 +30,6 @@ cask "docker"
 cask "firefox"
 cask "flux"
 cask "google-chrome"
-cask "gpg-suite"
 cask 'iterm2'
 cask 'ngrok'
 cask 'nordvpn'
@@ -39,5 +38,5 @@ cask 'slack-beta'
 cask 'spectacle'
 cask 'spotify'
 cask "visual-studio-code"
-cask 'virtualbox'
+# cask 'virtualbox' # This seems to always fail TODO
 cask 'vlc'
