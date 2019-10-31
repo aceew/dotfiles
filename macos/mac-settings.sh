@@ -10,5 +10,10 @@ defaults write com.apple.dock show-recents -bool false
 defaults write -g com.apple.mouse.scaling 5
 defaults write com.apple.dock show-recents -bool false
 
+# Menu Bar
+defaults write com.apple.menuextra.battery ShowPercent YES
+defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
 killall Dock
 killall Finder
+killall SystemUIServer
