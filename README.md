@@ -1,4 +1,3 @@
-Oli was here
 # Dotfiles
 
 > Config for keeping my machines/environments consistent
