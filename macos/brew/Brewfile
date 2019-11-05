@@ -11,6 +11,7 @@ brew 'awscli'
 brew 'awsebcli'
 brew 'aws-rotate-key'
 cask "adoptopenjdk8"
+brew 'cfn-lint'
 brew "elasticsearch"
 brew 'exercism'
 brew 'htop'
