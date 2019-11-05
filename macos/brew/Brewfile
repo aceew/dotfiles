@@ -10,9 +10,9 @@ tap "alecthomas/homebrew-tap"
 brew 'awscli'
 brew 'awsebcli'
 brew 'aws-rotate-key'
-cask "adoptopenjdk8"
+cask 'adoptopenjdk8'
 brew 'cfn-lint'
-brew "elasticsearch"
+brew 'elasticsearch'
 brew 'exercism'
 brew 'htop'
 brew 'kops'
@@ -21,6 +21,7 @@ brew 'openvpn'
 brew 'terraform'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'zsh-autosuggestions'
 
 # Go Tools
 brew "go"
@@ -41,3 +42,4 @@ cask 'spotify'
 cask "visual-studio-code"
 # cask 'virtualbox' # This seems to always fail TODO
 cask 'vlc'
+cask 'zoomus'
