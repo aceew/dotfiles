@@ -2,8 +2,8 @@
 
 function findinstance() {
     PROFILE=$1
-    SEARCH_STR=$2
-    REGION=$3
+    REGION=$2
+    SEARCH_STR=$3
 
     if [ "$#" -ne 3 ]; then
         echo "ERROR: You must enter exactly 3 command line arguments findinstance \$PROFILE \$REGION \$SEARCH_STR"
