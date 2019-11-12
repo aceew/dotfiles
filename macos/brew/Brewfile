@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-versions"
 tap "alecthomas/homebrew-tap"
+tap "aws/tap"
 
 # Tools
 brew 'awscli'
@@ -16,8 +17,10 @@ brew 'elasticsearch'
 brew 'exercism'
 brew 'htop'
 brew 'kops'
+brew 'n'
 brew 'node'
 brew 'openvpn'
+brew 'aws-sam-cli'
 brew 'shellcheck'
 brew 'terraform'
 brew 'zsh'
