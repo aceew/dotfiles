@@ -76,7 +76,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1281 942 570 475 0 0 2560 1417 </string>
+	<string>814 436 585 475 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -918,7 +918,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>021F6F29-A927-4ACE-8FC2-AA0DEB7CD4B8</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>10</integer>
+	<integer>11</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>594902577.04094398</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1677,7 +1677,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-11-20T09:33:11Z</date>
+	<date>2019-11-20T10:34:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -1695,7 +1695,7 @@
 	<key>StretchTabsToFillBar</key>
 	<true/>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>3</integer>
+	<integer>5</integer>
 	<key>TabsHaveCloseButton</key>
 	<true/>
 	<key>UseBorder</key>
