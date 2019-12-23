@@ -36,6 +36,7 @@ brew "go"
 brew "gometalinter"
 
 # Applications
+cask "cyberduck"
 cask "docker"
 cask "firefox"
 cask "flux"

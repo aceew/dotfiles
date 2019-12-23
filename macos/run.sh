@@ -23,10 +23,10 @@ brew bundle
 cd ../
 
 echo "Linking dotfiles"
-ln -sfn "${BASEDIR}/.bash_profile" ~/.bash_profile
-ln -sfn "${BASEDIR}/.zshrc" ~/.zshrc
-ln -sfn "${BASEDIR}/.gitconfig" ~/.gitconfig
-ln -sfn "${BASEDIR}/.vimrc" ~/.vimrc
+ln -sfn "$(pwd)/.bash_profile" ~/.bash_profile
+ln -sfn "$(pwd)/.zshrc" ~/.zshrc
+ln -sfn "$(pwd)/.gitconfig" ~/.gitconfig
+ln -sfn "$(pwd)/.vimrc" ~/.vimrc
 
 echo "Installing/updating crontab"
 crontab ./cron/aaron
