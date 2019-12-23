@@ -1,5 +1,7 @@
 #!/bin/bash
 
+BASEDIR=$(dirname "$0")
+
 if ! type "brew" > /dev/null; then
 	echo "Installing homebrew"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -14,16 +16,17 @@ fi
 echo "Updating homebrew"
 brew update
 
-cd brew || exit 1
-echo "Installing/updating dependencies from $(pwd)/Brewfile"
+
+cd "${BASEDIR}/brew" || exit 1
+echo "Installing/updating dependencies from ${BASEDIR}/Brewfile"
 brew bundle
 cd ../
 
 echo "Linking dotfiles"
-ln -sfn "$(pwd)/.bash_profile" ~/.bash_profile
-ln -sfn "$(pwd)/.zshrc" ~/.zshrc
-ln -sfn "$(pwd)/.gitconfig" ~/.gitconfig
-ln -sfn "$(pwd)/.vimrc" ~/.vimrc
+ln -sfn "${BASEDIR}/.bash_profile" ~/.bash_profile
+ln -sfn "${BASEDIR}/.zshrc" ~/.zshrc
+ln -sfn "${BASEDIR}/.gitconfig" ~/.gitconfig
+ln -sfn "${BASEDIR}/.vimrc" ~/.vimrc
 
 echo "Installing/updating crontab"
 crontab ./cron/aaron
