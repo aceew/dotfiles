@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 
 tap "fullscreen/tap"
+tap "golangci/tap"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-versions"
@@ -34,6 +35,7 @@ brew 'zsh-autosuggestions'
 # Go Tools
 brew "go"
 brew "gometalinter"
+brew "golangci-lint"
 
 # Applications
 cask "cyberduck"
