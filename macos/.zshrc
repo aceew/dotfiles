@@ -22,6 +22,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+eval $(thefuck --alias)
+
 source ~/.bash_profile
 source ~/Documents/Repositories/dotfiles/macos/aws/find-instance.sh
 
