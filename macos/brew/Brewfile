@@ -62,6 +62,7 @@ cask 'sequel-pro'
 cask 'slack-beta'
 cask 'spectacle'
 cask 'spotify'
+cask 'vagrant'
 cask "visual-studio-code"
 # cask 'virtualbox' # This seems to always fail TODO
 cask 'vlc'
