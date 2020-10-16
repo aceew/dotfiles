@@ -17,6 +17,7 @@ brew 'adr-tools'
 cask 'adoptopenjdk8'
 brew 'cfn-lint'
 brew 'circleci'
+brew 'cocoapods'
 brew 'elasticsearch'
 brew 'exercism'
 brew 'github/gh/gh'
@@ -63,7 +64,8 @@ cask 'slack-beta'
 cask 'spectacle'
 cask 'spotify'
 cask 'vagrant'
+cask 'vagrant-manager'
 cask "visual-studio-code"
-# cask 'virtualbox' # This seems to always fail TODO
+cask 'virtualbox' # This seems to always fail TODO
 cask 'vlc'
 cask 'zoomus'
