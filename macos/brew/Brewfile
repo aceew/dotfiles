@@ -48,6 +48,7 @@ brew "golangci-lint"
 cask 'android-studio'
 cask 'android-platform-tools'
 cask 'aws-vault'
+cask 'brave-browser'
 cask "cyberduck"
 cask "docker"
 cask "firefox"
@@ -66,6 +67,5 @@ cask 'spotify'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask "visual-studio-code"
-cask 'virtualbox' # This seems to always fail TODO
 cask 'vlc'
 cask 'zoomus'
