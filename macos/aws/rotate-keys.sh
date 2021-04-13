@@ -11,7 +11,7 @@ echo "started key rotation `date`"
 
 for profile in $profiles; do
 	echo "Rotating IAM key for ${profile}"
-	aws-rotate-key --profile "$profile" -y >>/var/log/rotate-iam-keys.log
+	aws-rotate-key --profile "$profile" -y
 done
 
 echo "finished key rotation $(date)"

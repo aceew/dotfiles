@@ -5,6 +5,7 @@ export SHELL=/usr/local/bin/zsh
 
 # Homebrew installs
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:$PATH
 
 # aws-sdk
 export AWS_SHARED_CREDENTIALS_FILE=~/.secrets/.aws/credentials
