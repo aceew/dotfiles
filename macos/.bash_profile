@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default shell to zsh
-export SHELL=/usr/local/bin/zsh
+export SHELL=/opt/homebrew/bin/zsh
 
 # Homebrew installs
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH

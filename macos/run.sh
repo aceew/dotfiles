@@ -42,3 +42,6 @@ echo "Setting up vim"
 
 echo "Setting up Mac Config"
 ./mac-settings.sh
+
+echo "Setting up mobile development settings"
+./mobile/run.sh
