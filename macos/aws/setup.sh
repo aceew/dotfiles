@@ -10,5 +10,5 @@ if [ ! -d $AWS_SHARED_CREDENTIALS_FOLDER ]; then
   mkdir -p "$AWS_SHARED_CREDENTIALS_FOLDER"
   touch $AWS_SHARED_CREDENTIALS_FILE
   ln -s "$AWS_SHARED_CREDENTIALS_FILE" ~/.aws/credentials
-  ln -s ./config ~/.aws/config
+  ln -s "${PWD}/config" ~/.aws/config
 fi
