@@ -9,6 +9,7 @@ defaults write com.apple.dock mineffect -string "scale"
 defaults write com.apple.dock show-recents -bool false
 defaults write -g com.apple.mouse.scaling 5
 defaults write com.apple.dock show-recents -bool false
+defaults write com.apple.dock static-only -bool true
 
 # Menu Bar
 defaults write com.apple.menuextra.battery ShowPercent YES
