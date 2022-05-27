@@ -30,7 +30,12 @@ brew 'node'
 brew 'openvpn'
 brew 'pre-commit'
 brew 'scrcpy'
+
+## Terraform
 brew 'terraform'
+brew 'terraform-docs'
+brew 'tflint'
+
 brew 'thefuck'
 brew 'vegeta'
 brew 'watch'
