@@ -8,5 +8,5 @@ if [ ! -d $AWS_SHARED_CREDENTIALS_FOLDER ]; then
   echo "You will need to set up your AWS credentials file at: $AWS_SHARED_CREDENTIALS_FILE"
   mkdir -p "$AWS_SHARED_CREDENTIALS_FOLDER"
   touch $AWS_SHARED_CREDENTIALS_FILE
-  ln -s "${PWD}/config" ~/.aws/config
+  cp "${PWD}/config" ~/.aws/config
 fi
