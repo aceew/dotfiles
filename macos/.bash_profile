@@ -8,7 +8,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:$PATH
 
 # aws-sdk
-export AWS_SHARED_CREDENTIALS_FILE=~/.secrets/.aws/credentials
 export AWS_PAGER=""
 
 # aws-sdk credentials in javascript

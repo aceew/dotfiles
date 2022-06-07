@@ -63,6 +63,7 @@ cask "gitify"
 cask "google-chrome"
 cask 'iterm2'
 cask 'mobster'
+cask 'mongodb-compass'
 cask 'ngrok'
 cask 'nordvpn'
 cask 'postman'
