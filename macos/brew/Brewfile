@@ -31,6 +31,15 @@ brew 'openvpn'
 brew 'pre-commit'
 brew 'scrcpy'
 
+# Images
+brew 'cairo'
+brew 'giflib'
+brew 'jpeg'
+brew 'libpng'
+brew 'librsvg'
+brew 'pango'
+brew 'pkg-config'
+
 ## Terraform
 brew 'terraform'
 brew 'terraform-docs'
