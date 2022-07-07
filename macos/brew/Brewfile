@@ -19,7 +19,7 @@ brew 'circleci'
 brew 'cocoapods'
 brew 'exercism'
 brew 'fastlane'
-brew 'github/gh/gh'
+brew 'gh'
 brew 'htop'
 brew 'jq'
 brew 'kops'
@@ -64,6 +64,7 @@ brew "golangci-lint"
 # Applications
 cask 'android-studio'
 cask 'android-platform-tools'
+cask 'android-sdk'
 cask 'aws-vault'
 cask 'brave-browser'
 cask "cyberduck"
