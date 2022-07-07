@@ -40,6 +40,9 @@ brew 'librsvg'
 brew 'pango'
 brew 'pkg-config'
 
+# TV Specific
+brew 'libffi'
+
 ## Terraform
 brew 'terraform'
 brew 'terraform-docs'
