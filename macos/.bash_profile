@@ -22,5 +22,7 @@ export GPG_TTY=$(tty)
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Android
-
 export ANDROID_HOME=~/Library/Android/sdk
+
+# LG WebOS CLI
+export PATH=$PATH:~/Library/WebOS/bin
