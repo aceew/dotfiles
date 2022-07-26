@@ -19,7 +19,7 @@ brew 'circleci'
 brew 'cocoapods'
 brew 'exercism'
 brew 'fastlane'
-brew 'github/gh/gh'
+brew 'gh'
 brew 'htop'
 brew 'jq'
 brew 'kops'
@@ -40,6 +40,14 @@ brew 'librsvg'
 brew 'pango'
 brew 'pkg-config'
 
+# TV and mobile
+brew 'libffi'
+cask 'android-studio'
+cask 'android-platform-tools'
+
+# Virtual Machines, used for windows VMs
+cask 'utm'
+
 ## Terraform
 brew 'terraform'
 brew 'terraform-docs'
@@ -59,8 +67,6 @@ brew "gometalinter"
 brew "golangci-lint"
 
 # Applications
-cask 'android-studio'
-cask 'android-platform-tools'
 cask 'aws-vault'
 cask 'brave-browser'
 cask "cyberduck"
