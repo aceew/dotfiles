@@ -1,3 +1,5 @@
 [user]
     name = aceew
     email = aaronwilliams9797@gmail.com
+[push]
+	autoSetupRemote = true
