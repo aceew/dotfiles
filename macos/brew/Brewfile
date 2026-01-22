@@ -26,6 +26,7 @@ brew 'nvm'
 brew 'openvpn'
 brew 'pre-commit'
 brew 'scrcpy'
+brew 'watchman'
 
 # Images
 brew 'cairo'
