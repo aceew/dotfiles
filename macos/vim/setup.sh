@@ -6,5 +6,5 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 if [ ! -d ~/.vim/bundle/vim-colors-solarized ]; then
     echo "Installing solarized vim theme"
-    git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+    git clone git@github.com:altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 fi
