@@ -16,11 +16,14 @@ fi
 echo "Updating homebrew"
 brew update
 
-
 cd "${BASEDIR}/brew" || exit 1
 echo "Installing/updating dependencies from ${BASEDIR}/Brewfile"
 brew bundle
 cd ../
+
+if [ ! -d ~/.nvm ]; then
+	mkdir -p ~/.nvm
+fi
 
 echo "Linking dotfiles"
 ln -sfn "$(pwd)/.bash_profile" ~/.bash_profile

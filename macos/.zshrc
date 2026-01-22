@@ -33,3 +33,5 @@ source ~/Documents/Repositories/dotfiles/macos/aws/find-instance.sh
 # source ~/Library/Python/3.6/bin/aws_zsh_completer.sh
 
 export SLACK_DEVELOPER_MENU=true
+export NVM_DIR="$HOME/.nvm"
+source $(brew --prefix nvm)/nvm.sh
