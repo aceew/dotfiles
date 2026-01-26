@@ -31,6 +31,12 @@ ln -sfn "$(pwd)/.zshrc" ~/.zshrc
 ln -sfn "$(pwd)/.gitconfig" ~/.gitconfig
 ln -sfn "$(pwd)/.vimrc" ~/.vimrc
 
+if ! rbenv versions | grep -q "3.3.5"; then
+	echo "Installing Ruby 3.3.5"
+	rbenv install 3.3.5
+	rbenv global 3.3.5
+fi
+
 echo "Installing/updating crontab"
 crontab ./cron/aaron
 
