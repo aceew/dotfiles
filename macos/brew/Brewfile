@@ -65,11 +65,14 @@ brew "golangci-lint"
 
 # Applications
 cask 'brave-browser'
+cask 'betterdisplay'
 cask 'cursor'
 cask "firefox"
 cask "gitify"
+cask "grammarly-desktop"
 cask "google-chrome"
 cask 'iterm2'
+cask 'microsoft-outlook'
 cask 'microsoft-teams'
 cask 'mongodb-compass'
 cask 'ngrok'
